@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff6347;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+main {
+  padding: 1rem;
+}
+
+#search-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+#search-input {
+  width: 300px;
+  padding: 0.5rem;
+}
+
+#search-button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+#results-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.meal-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.meal-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+#details-section {
+  margin-top: 2rem;
+}
