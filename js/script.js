@@ -61,7 +61,6 @@ async function fetchMealDetails(id) {
     <p>${meal.strInstructions}</p>
   `;
 
-  // Scrolla till detaljerna
   mealDetails.scrollIntoView({ behavior: 'smooth' });
 }
 

@@ -14,7 +14,6 @@ body {
   align-items: center;
 }
 
-/* Header */
 header {
   text-align: center;
   margin-top: 40px;
@@ -31,7 +30,6 @@ header p {
   margin-top: 10px;
 }
 
-/* Sökrutan centreras */
 .search-section {
   display: flex;
   justify-content: center;
@@ -63,7 +61,6 @@ header p {
   background-color: grey;
 }
 
-/* Resultat */
 .results-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -97,7 +94,6 @@ header p {
   text-align: center;
 }
 
-/* Detaljerad vy */
 .meal-details {
   background-color: whitesmoke;
   color: black;
